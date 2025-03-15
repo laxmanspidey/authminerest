@@ -1,0 +1,3 @@
+curl -X POST http://localhost:8000/api/auth/signup/ -H "Content-Type: application/json" -d "{\"username\": \"spidey\", \"password\": \"spideypassword\"}"
+curl -X POST http://localhost:8000/api/auth/signup/ -H "Content-Type: application/json" -d "{\"username\": \"testuser\", \"password\": \"testpassword\"}"
+curl -X POST http://localhost:8000/api/auth/login/ -H "Content-Type: application/json" -d "{\"username\": \"testuser\", \"password\": \"testpassword\"}"
